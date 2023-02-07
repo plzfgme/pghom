@@ -1,4 +1,4 @@
-mod agg;
+mod paillier;
 
 use pgx::prelude::*;
 

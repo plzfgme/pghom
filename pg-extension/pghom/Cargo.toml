@@ -16,10 +16,13 @@ pg15 = ["pgx/pg15", "pgx-tests/pg15"]
 pg_test = []
 
 [dependencies]
+ciborium = "0.2.0"
+kzen-paillier = "0.4.3"
 pgx = "=0.7.1"
 serde = "1.0.152"
 
 [dev-dependencies]
+pghom_client = { package = "pghom", path = "../.." }
 pgx-tests = "=0.7.1"
 
 [profile.dev]
