@@ -1,3 +1,5 @@
+[workspace]
+
 [package]
 name = "pghom"
 version = "0.0.0"
