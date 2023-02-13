@@ -1,5 +1,0 @@
-comment = 'pghom:  Created by pgx'
-default_version = '@CARGO_VERSION@'
-module_pathname = '$libdir/pghom'
-relocatable = false
-superuser = false

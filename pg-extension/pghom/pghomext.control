@@ -1,0 +1,5 @@
+comment = 'pghomext:  Created by pgx'
+default_version = '@CARGO_VERSION@'
+module_pathname = '$libdir/pghomext'
+relocatable = false
+superuser = false

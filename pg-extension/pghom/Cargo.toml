@@ -1,7 +1,7 @@
 [workspace]
 
 [package]
-name = "pghom"
+name = "pghomext"
 version = "0.0.0"
 edition = "2021"
 
@@ -22,7 +22,7 @@ ciborium = "0.2.0"
 kzen-paillier = "0.4.3"
 pgx = "=0.7.1"
 serde = "1.0.152"
-pghom_client = { package = "pghom", path = "../.." }
+pghom = { path = "../.." }
 
 [dev-dependencies]
 pgx-tests = "=0.7.1"
